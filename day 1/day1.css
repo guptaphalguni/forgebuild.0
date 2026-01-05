@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(212, 199, 80);
+    border: 100px ;
+    padding: 12px;
+
+}
+center{
+    background-color: rgb(138, 121, 21);
+
+}
+h1{
+    background-color: rgb(138, 121, 21);
+    color:aliceblue
+}
+#one{
+    background-color:rgb(138, 121, 21);
+    text-align: center;
+    color: aliceblue;
+}
+table {
+    width: 100%;
+    margin-top: 15px;
+  
+    background-color:rgb(237, 217, 151);
+}
+a {
+    color: #2768cb;
+    text-decoration:wavy;
+   
+}
+#two{
+    text-align: center;
+    background-color: rgb(138, 121, 21);
+    color: aliceblue;
+}
