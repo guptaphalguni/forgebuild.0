@@ -1,0 +1,15 @@
+#plusbutton{
+    background-color: green;
+
+}
+#minusbutton{
+    background-color: red;
+}
+h1{
+    color: rgb(39, 122, 205);
+    text-align: center;
+}
+body{
+    background-color:black;
+    color: white;
+}
