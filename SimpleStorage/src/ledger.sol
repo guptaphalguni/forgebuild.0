@@ -29,7 +29,7 @@ contract Ledger{
         newUser.registered=true;
     }
     
-    function deposit(uint256 _amtDeposited)public payable{
+    function deposit()public payable{
        require(msg.value > 0, "Deposit must be > 0");
         User storage user = users[msg.sender];
         require(user.registered, "User not registered");
