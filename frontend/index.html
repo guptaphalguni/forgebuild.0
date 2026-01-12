@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ledger</title>
+  <link rel="stylesheet" href="ledger.css" />
+</head>
+<body>
+
+  <p class="title">LEDGER</p>
+  <p id="status">Not connected</p>
+  <button id="connectBtn">Connect Wallet</button>
+
+  <hr>
+
+  <p class="heading">Register</p>
+  <input id="usernameInput" type="text" placeholder="Username">
+  <button id="registerBtn">Register</button>
+
+  <hr>
+
+  <p class="heading">Deposit</p>
+  <input id="amountInput" type="number" step="0.001" placeholder="Amount in ETH">
+  <button id="depositBtn">Deposit</button>
+
+  <hr>
+
+  
+  <button id="historyBtn">Deposit History</button>
+
+  <hr>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+  <script src="ledger.js"></script>
+</body>
+</html>
