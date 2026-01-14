@@ -62,7 +62,6 @@ async function loadHistory() {
   historyP.innerText = result;
 }
 
-// Buttons
 document.getElementById("connectBtn").onclick = connectWallet;
 document.getElementById("loadBtn").onclick = loadHistory;
 
