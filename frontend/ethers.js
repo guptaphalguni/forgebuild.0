@@ -143,11 +143,11 @@ async function connect() {
     return;
   }
 
-  await ethereum.request({ method: "eth_requestAccounts" });
+  await window.ethereum.request({ method: "eth_requestAccounts" });
 
   provider = new ethers.providers.Web3Provider(window.ethereum);
   signer = provider.getSigner();
-  contract = new ethers.Contract(contractAddress, abi, signer);
+  contract = new ethers.Contract(contractAddress, ABI, signer);
 
   const address = await signer.getAddress();
   document.getElementById("status").innerText = "Connected: " + address;
